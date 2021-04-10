@@ -75,9 +75,12 @@ client.ws.on('INTERACTION_CREATE', async interaction => {
   }
 });
 ```
+---
 
 Bunu da yaptığınızda bot artık komuta cevap verecektir. SJ
+
 ![/ ÖRNEK GÖRSEL](https://noydra.is-inside.me/RSwcFg6e.png)
+
 ---
 ## 2. Global olmayan (Server-only) Slash commands
 
