@@ -79,7 +79,7 @@ client.ws.on('INTERACTION_CREATE', async interaction => {
 Bunu da yaptığınızda bot artık komuta cevap verecektir. SJ
 ![/ ÖRNEK GÖRSEL](https://noydra.is-inside.me/RSwcFg6e.png)
 ---
-## Global olmayan (Server-only) Slash commands
+## 2. Global olmayan (Server-only) Slash commands
 
 Bunun tek farkı sadece ayarladığınız sunucuda kullanılabilmesidir, sunucuya özel bot yapıyorsanız bu daha kullanışlu olur.
 
@@ -95,8 +95,8 @@ client.on("ready", () => {
 ## Örnek otorol slash commands
 
 * Botta slash izni olduğundan emin olun
-* [main.js](https://github.com/noydra/discord.js-slash/main/main.js) deki "birinci kısım" isimli kodu botun mainine atıp reboot çekiyoruz. Ekranda "HAZIRIM KOMTANIM" yazarsa kodu silip reboot çekiyoruz.
-* Ardından [main.js](https://github.com/noydra/discord.js-slash/main/main.js) deki "ikinci kısım" isimli kodu botun mainine atıyoruz. yazıları editleyebilirsiniz. reboot çekiyoruz bota.
+* [main.js](https://github.com/noydra/discord.js-slash/blob/main/main.js) deki "birinci kısım" isimli kodu botun mainine atıp reboot çekiyoruz. Ekranda "HAZIRIM KOMTANIM" yazarsa kodu silip reboot çekiyoruz.
+* Ardından [main.js](https://github.com/noydra/discord.js-slash/blob/main/main.js) deki "ikinci kısım" isimli kodu botun mainine atıyoruz. yazıları editleyebilirsiniz. reboot çekiyoruz bota.
 * Bitti bu kadar, nasipte varmış.
 
 #### Dipnot
