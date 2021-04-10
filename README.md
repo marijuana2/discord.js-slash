@@ -68,7 +68,7 @@ client.ws.on('INTERACTION_CREATE', async interaction => {
       data: {
         type: 4,
         data: {
-          content: "ALKSJDHKQWJHSDKQWJD SJSJSJSJ"
+          content: "komik sayı"
         }
       }
     })
